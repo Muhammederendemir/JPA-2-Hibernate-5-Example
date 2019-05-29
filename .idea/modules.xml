@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bifirectional-Example1/Bifirectional-Example1.iml" filepath="$PROJECT_DIR$/Bifirectional-Example1/Bifirectional-Example1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JPA  2 Hibernate 5 Example.iml" filepath="$PROJECT_DIR$/.idea/JPA  2 Hibernate 5 Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPA - Example/JPA - Example.iml" filepath="$PROJECT_DIR$/JPA - Example/JPA - Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondaryTable-Example/SecondaryTable-Example.iml" filepath="$PROJECT_DIR$/SecondaryTable-Example/SecondaryTable-Example.iml" />
+    </modules>
+  </component>
+</project>

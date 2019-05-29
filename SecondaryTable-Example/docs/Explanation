@@ -1,0 +1,6 @@
+
+   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+   @SecondaryTable notasyonunu, pojo sinifimizda @Entity notasyonuyla birlikte kullanabiliriz. Adi uzerinde bu notasyon
+  bizim icin ikinci bir tablo olusturur ve @Column notasyonu yardimiyla ikinci tablomuzla iliskilendirebiliriz.

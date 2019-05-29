@@ -1,0 +1,59 @@
+
+                                            Object Relational Mapping (ORM) nedir ?
+
+      Object Relational Mapping , Java objeleri ile iliskisel veritabani arasindaki baglantiyi ve yonetimi saglayan bir
+     tekniktir. Mapping kelime anlami olarak “esletirme” anlamina gelmektedir.
+
+      En temel olarak dusunecegimiz kavram Tablo ile Java sinifini esletirilmesidir. Person sinifimiz ile Person table
+     arasindaki eslestirme gibi. Sinifimizdaki instance variable’lar tablomuzdaki column’lara denk gelmektedir.
+
+
+           ORM Tools
+       ORM teknolojisi Java’ya ozgu bir teknoloji degildir. Hatta ORM teknigi Java’dan daha eskidir.
+
+           JPA basit , guclu ve esnek bir yapiya sahiptir.
+           POJO modelli gelistirme
+           Object Oriented , inheritance destegi , polymorphism
+           Transaction , caching destegi
+           Java Persistence Query Language , Query API
+           Criteria API, Bean Validation Support
+           Java Persistence API Release Date
+
+           Java Persistence API (JPA) 1.0 , EJB 3.0 in bir parcasi olarak 2006 Mayis ayinda geldi.
+           Java EE 5 , JSR – 220
+           Java Persistence API (JPA) 2.0 ,  2009 Aralik ayinda Java EE 6 ile geldi. JSR – 317
+           Java Persistence API (JPA) 2.1 , 2013 Mayis ayinda Java EE7 ile geldi. JSR – 338
+           JPA Implementations
+
+           Bazi JPA uygulamalari sunlardir ;
+
+            - EclipseLink
+            - Hibernate
+            - Open JPA
+            - DataNucleus
+
+
+
+
+
+                                        HİBERNATE
+
+    Hibernate bir nesne/iliskisel (Object/Relational Mapping) aracidir.
+
+    ORM(Object/ Relational Mapping), object oriented dillerdeki nesnelerin, iliskisel veritabanindaki (Relational Database)
+   kayitlara nasil karsilik geldiğini yürüten bir teknolojidir.
+
+    Hibernate yalnizca Java siniflarindan veritabani tablolarina veya Java veri tiplerinde SQL veri tiplerine donusumu yapmaz.
+   Hibernate veri sorgulama ve veri cekme islemlerini de kullanici icin saglar.
+
+    Bu ozellikleriyle Hibernate gelistirme kolayligi ve zamandan kazanc saglar.
+
+    Hibernate guclu bir query dili destegiyle(Hibernate Query Language ) nesneleri veri tabanindan cekmeyi ve sekilde
+   onbellege alma (caching) islerini de etkili bir sekilde gerceklestirmektedir.
+
+
+   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+   @SecondaryTable notasyonunu, pojo sinifimizda @Entity notasyonuyla birlikte kullanabiliriz. Adi uzerinde bu notasyon
+  bizim icin ikinci bir tablo olusturur ve @Column notasyonu yardimiyla ikinci tablomuzla iliskilendirebiliriz.
