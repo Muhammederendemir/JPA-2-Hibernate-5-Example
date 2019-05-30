@@ -1,4 +1,4 @@
-package com.entity;
+package com.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,7 +15,6 @@ import java.util.List;
 public class Lesson extends BaseEntity {
 
     @ManyToMany(mappedBy = "lessons")
-
     private List<Student> students;
 
 }

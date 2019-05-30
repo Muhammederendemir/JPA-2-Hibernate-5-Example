@@ -1,7 +1,7 @@
 package com;
 
-import com.entity.Lesson;
-import com.entity.Student;
+import com.model.Lesson;
+import com.model.Student;
 import com.util.JPAUtil;
 
 import javax.persistence.EntityManager;
@@ -9,6 +9,7 @@ import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
+
         EntityManager entityManager = JPAUtil.getEntityManagerFactory().createEntityManager();
         entityManager.getTransaction().begin();
 
@@ -27,16 +28,9 @@ public class Test {
         Lesson.setName("Java");
         Lesson.setStudents(Arrays.asList(student, student1));
 
-
         student.setLessons(Arrays.asList(Lesson, Lesson1));
         student1.setLessons(Arrays.asList(Lesson));
 
-      /*   System.out.println(entityB);
-        System.out.println(entityB2);
-        System.out.println(entityA);
-        System.out.println(entityA2);
-         */
-        //entityManager.getTransaction().begin();
         entityManager.persist(Lesson);
         entityManager.persist(Lesson1);
         entityManager.persist(student);

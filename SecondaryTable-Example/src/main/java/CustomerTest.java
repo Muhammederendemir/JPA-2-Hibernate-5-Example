@@ -1,4 +1,4 @@
-import com.entity.Customer;
+import com.model.Customer;
 import com.util.JPAUtil;
 
 import javax.persistence.EntityManager;
