@@ -17,7 +17,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <lombok.version>1.18.2</lombok.version>
-        <mysql.version>8.0.13</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <hibernate.version>5.4.2.Final</hibernate.version>
         <junit.version>4.11</junit.version>
         <javax.version>1.0.0.Final</javax.version>
